@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import History from './components/History';
+import './components/Myown.css';
+import Payment from './components/Payment';
+import Refer from './components/Refer';
+import Rewards from './components/Rewards';
+import Bonus from './components/Bonus';
+import Getb from './components/Getb';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar></Navbar>
+    <History></History>
+    <Payment></Payment>
+    <Refer></Refer>
+    <Rewards></Rewards>
+    <Bonus></Bonus>
+    <Getb></Getb>
+    
     </div>
+     
   );
 }
 
